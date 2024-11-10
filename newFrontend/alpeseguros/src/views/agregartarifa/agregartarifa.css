@@ -1,0 +1,112 @@
+/* Estilos generales para el contenedor */
+div {
+    font-family: Arial, sans-serif;
+    color: #333;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+/* Título de la tabla */
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Botones de acción */
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 6px 10px;
+    margin: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+button.cancel {
+    background-color: #d9534f;
+}
+
+button.cancel:hover {
+    background-color: #c9302c;
+}
+
+/* Botones dentro de la tabla */
+table button {
+    background-color: transparent;
+    color: #007bff;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+table button:hover {
+    color: #0056b3;
+}
+
+/* Formulario para agregar nuevas entradas */
+div > div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 10px 0;
+}
+
+input[type="text"] {
+    border: 1px solid #ddd;
+    padding: 6px;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 14px;
+}
+
+/* Tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table th,
+table td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #f8f9fa;
+}
+
+table td {
+    background-color: #fff;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+td div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* Estilo para la entrada de tarifa en edición */
+td input[type="text"] {
+    max-width: 80px;
+    text-align: center;
+}

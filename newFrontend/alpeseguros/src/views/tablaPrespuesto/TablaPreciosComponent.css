@@ -1,0 +1,39 @@
+.tabla-precios-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .tabla-precios {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .tabla-precios th, .tabla-precios td {
+    border: 1px solid #ddd;
+    padding: 12px;
+  }
+  
+  .tabla-precios th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .tabla-precios tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .tabla-precios tr:hover {
+    background-color: #ddd;
+  }
+  
+  .company-logo {
+    width: 40px;
+    height: auto;
+    border-radius: 5px;
+  }
+  

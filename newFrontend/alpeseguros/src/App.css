@@ -1,0 +1,111 @@
+/* Estilo general de la app */
+.App {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f6f9; /* Fondo claro para un look más limpio */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Asegura que el contenido ocupe al menos el 100% de la altura de la ventana */
+  justify-content: space-between; /* Empuja el footer hacia abajo */
+}
+
+
+
+
+/* Estilo de la imagen (para el seguro) */
+.insurance-image {
+  max-width: 80%;  /* Limita el tamaño máximo de la imagen */
+  height: auto;  /* Mantiene la proporción */
+  margin-bottom: 30px;  /* Más espacio debajo de la imagen */
+  border-radius: 10px;  /* Bordes más suaves para un toque más moderno */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);  /* Sombra sutil para hacerla destacar */
+}
+
+/* Estilo del header */
+.header {
+  background-color: #282c34; /* Mantener el color oscuro de fondo */
+  color: white;
+  padding: 20px;
+  font-size: 2rem;  /* Fuente más grande y cómoda */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #61dafb; /* Azul para el título */
+}
+
+/* Link (enlaces) */
+.App-link {
+  color: #61dafb;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.App-link:hover {
+  text-decoration: underline;
+}
+
+
+/* Sección de contenido central (para el texto) */
+.main-content {
+  margin-top: 40px;
+  padding: 20px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Título principal */
+.welcome-title {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Botones */
+button {
+  padding: 12px 25px;
+  font-size: 1rem;
+  background-color: #61dafb;  /* Mantener el azul */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin: 10px;
+}
+
+button:hover {
+  background-color: #4fa3d1;  /* Un azul más oscuro para el hover */
+  transform: translateY(-2px);  /* Efecto sutil de movimiento */
+}
+
+button:active {
+  background-color: #3793b2;  /* Azul más oscuro cuando el botón es presionado */
+  transform: translateY(0);  /* Evitar el efecto de movimiento cuando se presiona */
+}
+
+/* Fondo y contenedor de footer */
+.footer {
+  background-color: #282c34;
+  color: white;
+  padding: 0px;
+  font-size: 1rem;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  margin-top: auto; /* Empuja el footer hacia abajo */
+}

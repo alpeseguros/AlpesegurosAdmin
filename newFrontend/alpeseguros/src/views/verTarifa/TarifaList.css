@@ -1,0 +1,65 @@
+/* Contenedor principal para centrar el contenido */
+.tarifa-list-container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+h2 {
+    color: #333;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+/* Estilo de la tabla */
+.tarifa-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Encabezado de la tabla */
+.tarifa-table th {
+    background-color: #f4f6f8;
+    color: #555;
+    font-weight: 600;
+    padding: 12px;
+    text-transform: uppercase;
+}
+
+/* Filas de la tabla */
+.tarifa-table td {
+    padding: 12px;
+    color: #333;
+    background-color: #fff;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+/* Filas alternas */
+.tarifa-table tr:nth-child(even) td {
+    background-color: #f9f9f9;
+}
+
+/* Resaltar fila al pasar el ratón */
+.tarifa-table tr:hover td {
+    background-color: #e8f0fe;
+}
+
+/* Estilo del primer y último elemento en la fila */
+.tarifa-table td:first-child {
+    border-radius: 8px 0 0 8px;
+}
+
+.tarifa-table td:last-child {
+    font-weight: bold;
+    color: #2c3e50;
+    border-radius: 0 8px 8px 0;
+}
